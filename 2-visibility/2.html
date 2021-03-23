@@ -1,0 +1,38 @@
+<t2 class="triangle"></t2>
+<t1 class="triangle"></t1>
+<t3 class="triangle"></t3>
+<t4 class="triangle"></t4>
+
+<style>
+  body {
+    background: #F2F2B6;
+  }
+  .triangle {
+    width: 150;
+    height: 130;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: fixed;
+    top: 85;
+  }
+  t1, t3 {
+    background: #FD4602;
+  }
+  t2, t4 {
+    background: #FF6D00;
+  }
+  t3, t4 {
+    transform: rotate(180deg);
+  }
+  t1 {
+    left: 170;
+  }
+  t2 {
+    left: 190;
+  }
+  t3 {
+    left: 80;
+  }
+  t4 {
+    left: 60;
+  }
+</style>

@@ -1,0 +1,57 @@
+<c1 class="circle yellow2 level1 column1"></c1>
+<c2 class="circle yellow2 level2 column2"></c2>
+<c3 class="circle yellow1 level1 column4"></c3>
+<c4 class="circle yellow1 level2 column3"></c4>
+<s1 class="semicircleup yellow1 level1 column2"></s1>
+<s2 class="semicircledown yellow1 level2 column1"></s2>
+<s3 class="semicircleup yellow2 level1 column3"></s3>
+<s4 class="semicircledown yellow2 level2 column4"></s4>
+
+
+<style>
+  body {
+    background: #1A4341;
+  }
+  * {
+    position: fixed;
+  }
+  .circle {
+    width: 50;
+    height: 50;
+    border-radius: 50%;
+  }
+  .semicircledown {
+    border-radius: 0 0 50% 50%;
+    width: 50;
+    height: 50;
+  }
+  .semicircleup {
+    border-radius: 50% 50% 0 0;
+    width: 50;
+    height: 50;
+  }
+  .yellow1 {
+    background: #F3AC3C;
+  }
+  .yellow2 {
+    background: #998235;
+  }
+  .level1 {
+	top: 90;
+  }
+  .level2 {
+	top: 160;
+  }
+  .column1 {
+    left: 70;
+  }
+  .column2 {
+    left: 140;
+  }
+  .column3 {
+    left: 210;
+  }
+  .column4 {
+    left: 280;
+  }
+</style>
