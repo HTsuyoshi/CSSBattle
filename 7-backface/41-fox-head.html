@@ -1,0 +1,55 @@
+<s1 class="semicircle"></s1>
+<s2 class="semicircle"></s2>
+<s3 class="semicircle"></s3>
+<s4 class="semicircle"></s4>
+<c1 class="circle"></c1>
+<c2 class="circle"></c2>
+
+<style>
+  body {
+	background: #293462;
+  }
+  * {
+    position: fixed;
+  }
+  .semicircle {
+    width: 50;
+    height: 150;
+    border-radius: 40px 0 0 0;
+  }
+  .circle {
+	top: 140;
+    width: 30;
+    height: 30;
+	background: #293462;
+    border-radius: 50%;
+  }
+  s1, s2 {
+	top: 80;
+    background: #FE5F55;
+  }
+  s3, s4 {
+	top: 180;
+    background: #293462;
+  }
+  s1 {
+    left : 200;
+  }
+  s2 {
+    left : 150;
+    transform: scaleX(-1);
+  }
+  s3 {
+    left : 200;
+  }
+  s4 {
+    left : 150;
+    transform: scaleX(-1);
+  }
+  c1 {
+    left: 205;
+  }
+  c2 {
+    left: 165;
+  }
+</style>
